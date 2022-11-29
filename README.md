@@ -36,7 +36,7 @@ The application has the following features:
   the comments
 - When a user clicks on the "👍" button, the number of upvotes for the video
   should increase
-- When a user clicks on the "👎" button, the number of downvotes for the video
+- When a user clicks on the "👍" button, the number of downvotes for the video
   should increase
 - When the user clicks the "Hide Comments" button, the comments should be
   removed from the page, and the button text should change to "Show Comments".
