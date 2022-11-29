@@ -16,8 +16,8 @@ function VideoContainer(props) {
       <p>
         {props.video.views} Views | Uploaded {props.video.createdAt}
       </p>
-      <button> {props.video.upvotes} 👍</button>
-      <button> {props.video.downvotes} 👎</button>
+      <button onClick={() => props.handleVoteClick()}> {props.upvotes} 👍</button>
+      <button onClick={() => props.handleVoteClick()}> {props.downvotes} 👎</button>
     </div>
   )
 }
